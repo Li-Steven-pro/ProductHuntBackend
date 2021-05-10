@@ -1,0 +1,18 @@
+{
+  "name": "producthuntbackend",
+  "version": "1.0.0",
+  "description": "backend which handles product hunt API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "graphql",
+    "restful",
+    "product_hunt"
+  ],
+  "author": "Steven LI",
+  "license": "ISC"
+}
