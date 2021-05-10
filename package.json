@@ -14,5 +14,10 @@
     "product_hunt"
   ],
   "author": "Steven LI",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1"
+  }
 }
