@@ -3,6 +3,9 @@ let express = require('express')
 // Initialize the backend
 let app = express()
 
+let cors = require('cors');
+
+app.use(cors())
 // Set the environement
 var env = process.env.NODE_ENV || 'development'
 

@@ -10,6 +10,7 @@ const TOKEN = process.env.TOKEN;
 exports.getPostsByDay = (req,res) => {
     let date = req.params.date
     let check = checkDate(date)
+    res.setHeader('Content-Type', 'application/json');
     if(check.isValid){
         let options = {
             url:'http://api.producthunt.com/v1/posts?day='+date,
