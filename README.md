@@ -2,6 +2,7 @@
  Back-end which handles product hunt API.
 
 ## Prerequisites
+
 ### Installation
 
 1. Clone the repo
@@ -13,7 +14,7 @@
   npm install
   ```
  
-### Environment variable
+### Environment variable (development purposes)
 Before launching the server, set the environment variable in .env as described below.
 
 #### .env Structure
@@ -326,5 +327,14 @@ Example output:
     }
 }
 ```
+
+
+## Packages
+
+List of packages I used for the server : 
+1. express
+2. axios
+3. cors 
+4. dotenv 
 
   
