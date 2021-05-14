@@ -22,6 +22,7 @@ exports.getPostsByDay = (req,res) => {
             }
         }
         axios(options).then((response)=>{
+            res.status(200)
             res.json({
                 "status" : 200,
                 "response" : {
@@ -30,6 +31,7 @@ exports.getPostsByDay = (req,res) => {
                 }
             })
         }).catch((error)=>{
+            res.status(500)
             res.json({
                 "status" : 500,
                 "response" : {
@@ -40,6 +42,7 @@ exports.getPostsByDay = (req,res) => {
             })
         })
     }else{
+        res.status(400)
         res.json({
             "status" : 400,
             "response" : {
