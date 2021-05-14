@@ -68,7 +68,7 @@ let mapPost = (post) =>{
     rPost["topics"] = post.topics.map((topic)=>{
         return {"name": topic.name}
     })
-    rPost["redirect_link"] = post.redirect_link
+    rPost["redirect_link"] = post.redirect_url
     rPost["thumbnail"] = post.thumbnail.image_url
     rPost["day"] = post.day
     return rPost
