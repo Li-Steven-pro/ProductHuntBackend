@@ -328,6 +328,16 @@ Example output:
 }
 ```
 
+## Docker 
+
+After the setting of .env file you can build your docker image
+```
+docker build -t producthunt-api .
+```
+
+then push on docker hub. [link](https://docs.docker.com/engine/reference/commandline/push/)
+
+
 
 ## Packages
 
